@@ -1,0 +1,45 @@
+newsroom-frontend/
+├── .env
+├── package.json
+├── tsconfig.json
+├── vite.config.ts
+├── index.html
+├── src/
+│   ├── main.tsx
+│   ├── App.tsx
+│   ├── app/
+│   │   ├── store.ts
+│   │   ├── hooks.ts
+│   │   └── authSlice.ts
+│   ├── services/
+│   │   └── api.ts
+│   ├── types/
+│   │   └── index.ts
+│   ├── components/
+│   │   ├── Header.tsx
+│   │   ├── BreakingDrawer.tsx
+│   │   ├── ProtectedRoute.tsx
+│   │   └── ResizableSplitter.tsx
+│   ├── features/
+│   │   ├── dashboard/
+│   │   │   ├── Dashboard.tsx
+│   │   │   ├── StoryGrid.tsx
+│   │   │   ├── StoryEditor.tsx
+│   │   │   └── StoryCard.tsx (optional)
+│   │   ├── createStory/
+│   │   │   └── CreateStory.tsx
+│   │   ├── rundown/
+│   │   │   ├── RundownView.tsx
+│   │   │   ├── RundownList.tsx
+│   │   │   └── RundownWorkspace.tsx
+│   │   ├── ticker/
+│   │   │   ├── TickerView.tsx
+│   │   │   └── TickerEditor.tsx
+│   │   └── users/
+│   │       ├── UsersView.tsx
+│   │       ├── UserModal.tsx
+│   │       └── PermissionsMatrix.tsx
+│   └── utils/
+│       └── helpers.ts
+└── public/
+    └── favicon.ico
